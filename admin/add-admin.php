@@ -11,13 +11,13 @@
             <br>
 
             <?php
-                if(isset($_SESSION['add'])) // Checking whether the session is set of not
-                {
-                    echo $_SESSION['add']; // Display the session message if set
-                    unset($_SESSION['add']); // Removie session Message 
-                }
+                // if(isset($_SESSION['add'])) // Checking whether the session is set of not
+                // {
+                //     echo $_SESSION['add']; // Display the session message if set
+                //     unset($_SESSION['add']); // Removie session Message 
+                // }
             ?>
-        
+
             <form action="" method="POST">
                 <table class="tbl-30">
                     <tr>
